@@ -1,6 +1,6 @@
 class TweetTagRelation < ApplicationRecord
 
-  belongs_to :Tweet
+  belongs_to :tweet
   belongs_to :tag
 
 end
